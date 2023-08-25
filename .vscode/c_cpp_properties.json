@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "UnrealPortfolio23Editor Editor Win64 Development (UnrealPortfolio23)",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_UnrealPortfolio23.json"
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\thega\\documents\\unreal projects\\unrealportfolio23\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealportfolio23\\uht\\unrealportfolio23.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\thega\\documents\\unreal projects\\unrealportfolio23\\intermediate\\build\\win64\\unrealportfolio23editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\thega\\documents\\unreal projects\\unrealportfolio23\\intermediate\\build\\win64\\unrealeditor\\development\\unrealportfolio23\\definitions.unrealportfolio23.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

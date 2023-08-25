@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\thega\\documents\\unreal projects\\unrealportfolio23\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealportfolio23\\uht\\unrealportfolio23gamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\thega\\documents\\unreal projects\\unrealportfolio23\\intermediate\\build\\win64\\unrealportfolio23editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\thega\\documents\\unreal projects\\unrealportfolio23\\intermediate\\build\\win64\\unrealeditor\\development\\unrealportfolio23\\definitions.unrealportfolio23.h",
+            "c:\\users\\thega\\documents\\unreal projects\\unrealportfolio23\\source\\unrealportfolio23\\unrealportfolio23gamemode.h",
+            "c:\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\thega\\documents\\unreal projects\\unrealportfolio23\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealportfolio23\\uht\\unrealportfolio23gamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

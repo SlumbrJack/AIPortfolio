@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealPortfolio23",
+			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealPortfolio23Editor",
+			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

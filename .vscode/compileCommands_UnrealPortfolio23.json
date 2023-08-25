@@ -1,0 +1,58 @@
+[
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_UnrealPortfolio23\\UnrealPortfolio23.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_UnrealPortfolio23\\UnrealPortfolio23.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_UnrealPortfolio23\\UnrealPortfolio23.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23Character.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_UnrealPortfolio23\\UnrealPortfolio23.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23Character.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_UnrealPortfolio23\\UnrealPortfolio23.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23GameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_UnrealPortfolio23\\UnrealPortfolio23.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23GameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_UnrealPortfolio23\\UnrealPortfolio23.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	}
+]
