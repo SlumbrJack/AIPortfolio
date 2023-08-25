@@ -1,13 +1,13 @@
 {
 	"Targets": [
 		{
-			"Name": "UnrealPortfolio23",
-			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23.Target.cs",
+			"Name": "AIPortfolio",
+			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio.Target.cs",
 			"Type": "Game"
 		},
 		{
-			"Name": "UnrealPortfolio23Editor",
-			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23Editor.Target.cs",
+			"Name": "AIPortfolioEditor",
+			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolioEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

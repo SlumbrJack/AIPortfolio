@@ -5,7 +5,33 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/thega/Documents/Unreal Projects/UnrealPortfolio23/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/BP_EnemyAIController.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/BP_EnemyAI.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/BT_EnemyAI.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/BB_EnemyAI.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/VA/5VU9TSLUEIZJPMEVRAD92A.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/W8/3DE52RYWHMDSA7VMKL6TEL.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/CN/VOPM8Q02SPAWLTFDPRLSSA.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/temp/BP_NPC.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/temp/AI_NPC.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/BTDecorator_CheckScale.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/ThirdPerson/Input/Actions/IA_Primary.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/Elements/Grenades/BP_FireGrenade.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/5A/BZAVIS1Z1DKYY6E808VI4Z.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/EJ/L63CGQLKDLC96C1JTTYT6V.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/MZ/RCCEDJ4QTB9UPXDYDD2ET1.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/Elements/Grenades/BP_FireField.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/BP_NPC.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/BT_NPC.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/BB_NPC.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/AI/AI_NPC.uasset",
+				"C:/Users/thega/Documents/Unreal Projects/AIPortfolio/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/OK/UW4EMA9MWB25NBEZITO1HX.uasset"
 			]
 		}
 	]

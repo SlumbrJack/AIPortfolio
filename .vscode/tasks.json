@@ -2,14 +2,14 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "UnrealPortfolio23 Win64 Debug Build",
+			"label": "AIPortfolio Win64 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Debug",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -19,19 +19,19 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Debug Rebuild",
+			"label": "AIPortfolio Win64 Debug Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Debug",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPortfolio23 Win64 Debug Clean"
+				"AIPortfolio Win64 Debug Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -39,14 +39,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Debug Clean",
+			"label": "AIPortfolio Win64 Debug Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Debug",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -56,14 +56,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 DebugGame Build",
+			"label": "AIPortfolio Win64 DebugGame Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -73,19 +73,19 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 DebugGame Rebuild",
+			"label": "AIPortfolio Win64 DebugGame Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPortfolio23 Win64 DebugGame Clean"
+				"AIPortfolio Win64 DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -93,14 +93,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 DebugGame Clean",
+			"label": "AIPortfolio Win64 DebugGame Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -110,14 +110,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Development Build",
+			"label": "AIPortfolio Win64 Development Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Development",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -127,19 +127,19 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Development Rebuild",
+			"label": "AIPortfolio Win64 Development Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Development",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPortfolio23 Win64 Development Clean"
+				"AIPortfolio Win64 Development Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -147,14 +147,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Development Clean",
+			"label": "AIPortfolio Win64 Development Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Development",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -164,14 +164,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Test Build",
+			"label": "AIPortfolio Win64 Test Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Test",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -181,19 +181,19 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Test Rebuild",
+			"label": "AIPortfolio Win64 Test Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Test",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPortfolio23 Win64 Test Clean"
+				"AIPortfolio Win64 Test Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -201,14 +201,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Test Clean",
+			"label": "AIPortfolio Win64 Test Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Test",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -218,14 +218,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Shipping Build",
+			"label": "AIPortfolio Win64 Shipping Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Shipping",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -235,19 +235,19 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Shipping Rebuild",
+			"label": "AIPortfolio Win64 Shipping Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Shipping",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPortfolio23 Win64 Shipping Clean"
+				"AIPortfolio Win64 Shipping Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -255,14 +255,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23 Win64 Shipping Clean",
+			"label": "AIPortfolio Win64 Shipping Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPortfolio23",
+				"AIPortfolio",
 				"Win64",
 				"Shipping",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -272,14 +272,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23Editor Win64 Debug Build",
+			"label": "AIPortfolioEditor Win64 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23Editor",
+				"AIPortfolioEditor",
 				"Win64",
 				"Debug",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -289,19 +289,19 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23Editor Win64 Debug Rebuild",
+			"label": "AIPortfolioEditor Win64 Debug Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23Editor",
+				"AIPortfolioEditor",
 				"Win64",
 				"Debug",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPortfolio23Editor Win64 Debug Clean"
+				"AIPortfolioEditor Win64 Debug Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -309,14 +309,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23Editor Win64 Debug Clean",
+			"label": "AIPortfolioEditor Win64 Debug Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPortfolio23Editor",
+				"AIPortfolioEditor",
 				"Win64",
 				"Debug",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -326,14 +326,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23Editor Win64 DebugGame Build",
+			"label": "AIPortfolioEditor Win64 DebugGame Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23Editor",
+				"AIPortfolioEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -343,19 +343,19 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23Editor Win64 DebugGame Rebuild",
+			"label": "AIPortfolioEditor Win64 DebugGame Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23Editor",
+				"AIPortfolioEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPortfolio23Editor Win64 DebugGame Clean"
+				"AIPortfolioEditor Win64 DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -363,14 +363,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23Editor Win64 DebugGame Clean",
+			"label": "AIPortfolioEditor Win64 DebugGame Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPortfolio23Editor",
+				"AIPortfolioEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -380,14 +380,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23Editor Win64 Development Build",
+			"label": "AIPortfolioEditor Win64 Development Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23Editor",
+				"AIPortfolioEditor",
 				"Win64",
 				"Development",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -397,19 +397,19 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23Editor Win64 Development Rebuild",
+			"label": "AIPortfolioEditor Win64 Development Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPortfolio23Editor",
+				"AIPortfolioEditor",
 				"Win64",
 				"Development",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPortfolio23Editor Win64 Development Clean"
+				"AIPortfolioEditor Win64 Development Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -417,14 +417,14 @@
 			}
 		},
 		{
-			"label": "UnrealPortfolio23Editor Win64 Development Clean",
+			"label": "AIPortfolioEditor Win64 Development Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPortfolio23Editor",
+				"AIPortfolioEditor",
 				"Win64",
 				"Development",
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",

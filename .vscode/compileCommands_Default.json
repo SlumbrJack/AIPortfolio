@@ -1,57 +1,169 @@
 [
 	{
-		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23.Build.cs",
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\AIPerception.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_Default\\UnrealPortfolio23.255.rsp"
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
 		],
 		"directory": "C:\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23.cpp",
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\AIPerception.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_Default\\UnrealPortfolio23.255.rsp"
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
 		],
 		"directory": "C:\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23.h",
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\AIPortfolio.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_Default\\UnrealPortfolio23.255.rsp"
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
 		],
 		"directory": "C:\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23Character.cpp",
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\AIPortfolio.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_Default\\UnrealPortfolio23.255.rsp"
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
 		],
 		"directory": "C:\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23Character.h",
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\AIPortfolio.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_Default\\UnrealPortfolio23.255.rsp"
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
 		],
 		"directory": "C:\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23GameMode.cpp",
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\AIPortfolioCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_Default\\UnrealPortfolio23.255.rsp"
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
 		],
 		"directory": "C:\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Source\\UnrealPortfolio23\\UnrealPortfolio23GameMode.h",
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\AIPortfolioCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_Default\\UnrealPortfolio23.255.rsp"
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\AIPortfolioGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\AIPortfolioGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\BTService_FindRandomLocation.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\BTService_FindRandomLocation.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\BTService_PlayerLocation.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\BTService_PlayerLocation.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\BTTask_MoveRandomLocation.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\BTTask_MoveRandomLocation.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\EnemyAIController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\EnemyAIController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\FireField.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\FireField.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\FireGrenade.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
+		],
+		"directory": "C:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Source\\AIPortfolio\\FireGrenade.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default\\AIPortfolio.255.rsp"
 		],
 		"directory": "C:\\UE_5.1\\Engine\\Source"
 	}

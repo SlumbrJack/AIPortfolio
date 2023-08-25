@@ -2,10 +2,10 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Launch UnrealPortfolio23 (Debug)",
+			"name": "Launch AIPortfolio (Debug)",
 			"request": "launch",
-			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
-			"preLaunchTask": "UnrealPortfolio23 Win64 Debug Build",
+			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "AIPortfolio Win64 Debug Build",
 			"args": [
 			],
 			"cwd": "C:\\UE_5.1",
@@ -18,10 +18,10 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPortfolio23 (DebugGame)",
+			"name": "Launch AIPortfolio (DebugGame)",
 			"request": "launch",
-			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
-			"preLaunchTask": "UnrealPortfolio23 Win64 DebugGame Build",
+			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "AIPortfolio Win64 DebugGame Build",
 			"args": [
 			],
 			"cwd": "C:\\UE_5.1",
@@ -34,10 +34,10 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPortfolio23 (Development)",
+			"name": "Launch AIPortfolio (Development)",
 			"request": "launch",
-			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Binaries\\Win64\\UnrealGame.exe",
-			"preLaunchTask": "UnrealPortfolio23 Win64 Development Build",
+			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "AIPortfolio Win64 Development Build",
 			"args": [
 			],
 			"cwd": "C:\\UE_5.1",
@@ -50,10 +50,10 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPortfolio23 (Test)",
+			"name": "Launch AIPortfolio (Test)",
 			"request": "launch",
-			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
-			"preLaunchTask": "UnrealPortfolio23 Win64 Test Build",
+			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "AIPortfolio Win64 Test Build",
 			"args": [
 			],
 			"cwd": "C:\\UE_5.1",
@@ -66,10 +66,10 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPortfolio23 (Shipping)",
+			"name": "Launch AIPortfolio (Shipping)",
 			"request": "launch",
-			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
-			"preLaunchTask": "UnrealPortfolio23 Win64 Shipping Build",
+			"program": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "AIPortfolio Win64 Shipping Build",
 			"args": [
 			],
 			"cwd": "C:\\UE_5.1",
@@ -82,12 +82,12 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPortfolio23Editor (Debug)",
+			"name": "Launch AIPortfolioEditor (Debug)",
 			"request": "launch",
 			"program": "C:\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
-			"preLaunchTask": "UnrealPortfolio23Editor Win64 Debug Build",
+			"preLaunchTask": "AIPortfolioEditor Win64 Debug Build",
 			"args": [
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject"
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject"
 			],
 			"cwd": "C:\\UE_5.1",
 			"stopAtEntry": false,
@@ -99,12 +99,12 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPortfolio23Editor (DebugGame)",
+			"name": "Launch AIPortfolioEditor (DebugGame)",
 			"request": "launch",
 			"program": "C:\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
-			"preLaunchTask": "UnrealPortfolio23Editor Win64 DebugGame Build",
+			"preLaunchTask": "AIPortfolioEditor Win64 DebugGame Build",
 			"args": [
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject"
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject"
 			],
 			"cwd": "C:\\UE_5.1",
 			"stopAtEntry": false,
@@ -116,12 +116,12 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPortfolio23Editor (Development)",
+			"name": "Launch AIPortfolioEditor (Development)",
 			"request": "launch",
 			"program": "C:\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
-			"preLaunchTask": "UnrealPortfolio23Editor Win64 Development Build",
+			"preLaunchTask": "AIPortfolioEditor Win64 Development Build",
 			"args": [
-				"C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject"
+				"C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject"
 			],
 			"cwd": "C:\\UE_5.1",
 			"stopAtEntry": false,
@@ -140,7 +140,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\UnrealPortfolio23.uproject",
+				"-project=C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\AIPortfolio.uproject",
 				"-game",
 				"-engine"
 			],

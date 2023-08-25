@@ -1,12 +1,12 @@
 {
     "configurations": [
         {
-            "name": "UnrealPortfolio23Editor Editor Win64 Development (UnrealPortfolio23)",
+            "name": "AIPortfolioEditor Editor Win64 Development (AIPortfolio)",
             "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_UnrealPortfolio23.json"
+            "compileCommands": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_AIPortfolio.json"
         },
         {
             "name": "Win32",
@@ -14,7 +14,7 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "C:\\Users\\thega\\Documents\\Unreal Projects\\UnrealPortfolio23\\.vscode\\compileCommands_Default.json"
+            "compileCommands": "C:\\Users\\thega\\Documents\\Unreal Projects\\AIPortfolio\\.vscode\\compileCommands_Default.json"
         }
     ],
     "version": 4
