@@ -16,6 +16,7 @@ AABC_Field::AABC_Field()
 	CapsuleComponent->OnComponentEndOverlap.AddDynamic(this, &AABC_Field::EndOverlap);
 	ElementParticles = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Element Particles"));
 	ElementParticles->SetupAttachment(CapsuleComponent);
+	Tags.Add("ElementField");
 }
 
 // Called when the game starts or when spawned

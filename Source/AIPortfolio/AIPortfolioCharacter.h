@@ -76,8 +76,16 @@ public:
 private:
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	float MaxHP;
-	bool bHasThrownGrenade = false;
+	
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
 	TSubclassOf<class AFireGrenade> GrenadeBP;
+	AFireGrenade* GrenadeRef = nullptr;
+
+	FTimerHandle GrenadeCooldownTimer;
+	float GrenadeCooldown = 3.0f;
+	bool bCanThrowGrenade = true;
+	void GrenadeCooldownToggle();
+	void ChargeGrenade();
+	float GrenadeThrowStrength = 0.0f;
 };
 

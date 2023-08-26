@@ -69,6 +69,8 @@ void AAIPortfolioCharacter::BeginPlay()
 
 }
 
+
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -85,8 +87,8 @@ void AAIPortfolioCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 		EnhancedInputComponent->BindAction(PrimaryAction, ETriggerEvent::Triggered, this, &AAIPortfolioCharacter::PrimaryAttack);
 
 		//Secondary
-		EnhancedInputComponent->BindAction(SecondaryAction, ETriggerEvent::Triggered, this, &AAIPortfolioCharacter::SecondaryAttack);
-
+		EnhancedInputComponent->BindAction(SecondaryAction, ETriggerEvent::Triggered, this, &AAIPortfolioCharacter::ChargeGrenade);
+		EnhancedInputComponent->BindAction(SecondaryAction, ETriggerEvent::Completed, this, &AAIPortfolioCharacter::SecondaryAttack);
 		//Moving
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AAIPortfolioCharacter::Move);
 
@@ -140,11 +142,38 @@ void AAIPortfolioCharacter::PrimaryAttack()
 
 void AAIPortfolioCharacter::SecondaryAttack()
 {
-	if(!bHasThrownGrenade)
+		if(GrenadeRef != nullptr)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Boom: %f"), GrenadeThrowStrength);
+			GrenadeRef->ChangeThrowValues();
+			GrenadeRef = nullptr;
+			GetWorldTimerManager().SetTimer(GrenadeCooldownTimer, this, &AAIPortfolioCharacter::GrenadeCooldownToggle, GrenadeCooldown);
+			GrenadeThrowStrength = 0;
+		}
+		
+	
+}
+
+void AAIPortfolioCharacter::GrenadeCooldownToggle()
+{
+	bCanThrowGrenade = true;
+}
+
+void AAIPortfolioCharacter::ChargeGrenade()
+{
+	if(bCanThrowGrenade)
 	{
-		bHasThrownGrenade = true;
-		UE_LOG(LogTemp, Warning, TEXT("Boom"));
-		GetWorld()->SpawnActor<AFireGrenade>(GrenadeBP, this->GetTransform());
+		FVector grenadelocation = this->GetTransform().GetLocation();
+		grenadelocation.Z = grenadelocation.Z + 100;
+		
+		GrenadeRef = GetWorld()->SpawnActor<AFireGrenade>(GrenadeBP, grenadelocation, this->GetTransform().Rotator());
+		bCanThrowGrenade = false;
+	}
+	if(GrenadeThrowStrength < 2)
+	{
+		GrenadeThrowStrength += 0.05;
+		UE_LOG(LogTemp, Warning, TEXT(" %f"), GrenadeThrowStrength);
+		//update grenade location to stay above player
 	}
 	
 }

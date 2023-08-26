@@ -13,7 +13,9 @@ class AIPORTFOLIO_API AFireGrenade : public AActor
 	
 public:	
 	// Sets default values for this actor's properties
+	float ThrowDistance = 0.f;
 	AFireGrenade();
+	
 
 protected:
 	// Called when the game starts or when spawned
@@ -22,6 +24,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	void ChangeThrowValues();
 private:
 	
 
@@ -34,9 +37,12 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* AirMesh;
 
-	//ongroundMesh
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	UStaticMeshComponent* GroundMesh;
+
+//movement
+	UPROPERTY(EditAnywhere)
+	class UProjectileMovementComponent* ProjectileMovement;
+	UPROPERTY(EditAnywhere)
+	class UMovementComponent* MovementComponent;
 
 	UFUNCTION()
 	void BeginOverlap(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);

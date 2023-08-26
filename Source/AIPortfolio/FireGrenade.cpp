@@ -6,6 +6,8 @@
 #include "Components/BoxComponent.h"
 #include "FireField.h"
 #include "ABC_Field.h"
+#include "GameFramework/ProjectileMovementComponent.h"
+#include "GameFramework/MovementComponent.h"
 // Sets default values
 AFireGrenade::AFireGrenade()
 {
@@ -15,10 +17,23 @@ AFireGrenade::AFireGrenade()
 	RootComponent = BoxComponent;
 	AirMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Air Mesh"));
 	AirMesh->SetupAttachment(BoxComponent);
-	GroundMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Ground Mesh"));
-	GroundMesh->SetupAttachment(BoxComponent);
+
 	BoxComponent->OnComponentHit.AddDynamic(this, &AFireGrenade::BeginOverlap);
-	GroundMesh->SetVisibility(false);
+	//MovementComponent->CreateDefaultSubobject<UMovementComponent>(TEXT("MovementComp"));
+	
+	ProjectileMovement =CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
+	ProjectileMovement->Velocity = FVector(0,0,0);
+	ProjectileMovement->bSimulationEnabled = false;
+	ProjectileMovement->InitialSpeed = 0;
+	ProjectileMovement->MaxSpeed = 1300;
+	/*
+	//ProjectileMovement->Velocity.X = ThrowDistance;
+	//ProjectileMovement->Velocity.Z = 0;
+	
+	
+	BoxComponent->SetEnableGravity(false);
+	
+*/
 }
 
 // Called when the game starts or when spawned
@@ -32,6 +47,16 @@ void AFireGrenade::BeginPlay()
 void AFireGrenade::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+}
+
+void AFireGrenade::ChangeThrowValues()
+{
+	BoxComponent->SetEnableGravity(true);
+	//ProjectileMovement->bSimulationEnabled = true;
+	//ProjectileMovement->Velocity = FVector(2, 0, 1);
+	//ProjectileMovement->InitialSpeed = 1300;
+	//ProjectileMovement->AddForce(FVector(1, 1, 1));
 
 }
 
