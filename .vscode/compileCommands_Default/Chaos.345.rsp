@@ -1,5 +1,5 @@
 /FI "C:\UE_5.1\Engine\Intermediate\Build\Win64\UnrealEditor\Development\Chaos\Definitions.Chaos.h" 
-/FI "C:\Users\thega\Documents\Unreal Projects\AIPortfolio\Intermediate\Build\Win64\AIPortfolioEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.TypeCastErrors.h" 
+/FI "C:\Users\thega\Documents\Unreal Projects\GITAIPortfolio\Intermediate\Build\Win64\AIPortfolioEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.TypeCastErrors.h" 
 /I "C:\UE_5.1\Engine\Source" 
 /I "C:\UE_5.1\Engine\Source\Runtime\Experimental\Chaos\Private" 
 /I "C:\UE_5.1\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Chaos\UHT" 

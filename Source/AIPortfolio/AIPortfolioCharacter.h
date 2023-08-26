@@ -32,7 +32,9 @@ class AAIPortfolioCharacter : public ACharacter
 	/** Left MB Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UInputAction* PrimaryAction;
-
+	/** Right MB Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* SecondaryAction;
 	/** Move Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UInputAction* MoveAction;
@@ -53,6 +55,8 @@ protected:
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
 	void PrimaryAttack();
+	void SecondaryAttack();
+
 
 
 protected:
@@ -72,5 +76,8 @@ public:
 private:
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	float MaxHP;
+	bool bHasThrownGrenade = false;
+	UPROPERTY(EditDefaultsOnly, Category = "Combat")
+	TSubclassOf<class AFireGrenade> GrenadeBP;
 };
 

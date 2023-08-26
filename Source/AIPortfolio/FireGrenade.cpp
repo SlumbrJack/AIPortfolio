@@ -5,6 +5,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/BoxComponent.h"
 #include "FireField.h"
+#include "ABC_Field.h"
 // Sets default values
 AFireGrenade::AFireGrenade()
 {
@@ -36,15 +37,16 @@ void AFireGrenade::Tick(float DeltaTime)
 
 void AFireGrenade::BeginOverlap(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Overlapped: %s"), *OtherActor->GetName());
 	if(OtherActor->ActorHasTag(TEXT("Ground")) && !isGrounded)
 	{
 		isGrounded = true;
-		UE_LOG(LogTemp, Warning, TEXT("Overlapped: %s"), *OtherActor->GetName());
+		
 		
 		//BoxComponent->SetBoxExtent(FVector(BoxComponent->GetPlacementExtent().BoxExtent.X, BoxComponent->GetPlacementExtent().BoxExtent.Y, 0.5));
 		
 		
-		GetWorld()->SpawnActor<AFireField>(FieldClass, this->GetTransform());
+		GetWorld()->SpawnActor<AABC_Field>(FieldClass, this->GetTransform());
 		K2_DestroyActor();
 	}
 	

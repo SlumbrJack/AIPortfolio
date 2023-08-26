@@ -9,6 +9,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "FireGrenade.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -83,6 +84,9 @@ void AAIPortfolioCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 		//Primary
 		EnhancedInputComponent->BindAction(PrimaryAction, ETriggerEvent::Triggered, this, &AAIPortfolioCharacter::PrimaryAttack);
 
+		//Secondary
+		EnhancedInputComponent->BindAction(SecondaryAction, ETriggerEvent::Triggered, this, &AAIPortfolioCharacter::SecondaryAttack);
+
 		//Moving
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AAIPortfolioCharacter::Move);
 
@@ -132,4 +136,15 @@ void AAIPortfolioCharacter::Look(const FInputActionValue& Value)
 void AAIPortfolioCharacter::PrimaryAttack()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Yo mama deez"));
+}
+
+void AAIPortfolioCharacter::SecondaryAttack()
+{
+	if(!bHasThrownGrenade)
+	{
+		bHasThrownGrenade = true;
+		UE_LOG(LogTemp, Warning, TEXT("Boom"));
+		GetWorld()->SpawnActor<AFireGrenade>(GrenadeBP, this->GetTransform());
+	}
+	
 }

@@ -44,6 +44,6 @@ private:
 	bool isGrounded = false;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
-	TSubclassOf<class AFireField> FieldClass;
+	TSubclassOf<class AABC_Field> FieldClass;
 
 };
