@@ -79,7 +79,10 @@ private:
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
 	TSubclassOf<class AFireGrenade> GrenadeBP;
+	UPROPERTY(EditDefaultsOnly, Category = "Combat")
+	TSubclassOf<class AActor> FakeGrenadeBP;
 	AFireGrenade* GrenadeRef = nullptr;
+	AActor* FakeGrenadeRef = nullptr;
 
 	FTimerHandle GrenadeCooldownTimer;
 	float GrenadeCooldown = 3.0f;

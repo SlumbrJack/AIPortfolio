@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "AIPortfolio",
-			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\BACKUP\\Source\\AIPortfolio.Target.cs",
+			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\GITAIPortfolio\\Source\\AIPortfolio.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "AIPortfolioEditor",
-			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\BACKUP\\Source\\AIPortfolioEditor.Target.cs",
+			"Path": "C:\\Users\\thega\\Documents\\Unreal Projects\\GITAIPortfolio\\Source\\AIPortfolioEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

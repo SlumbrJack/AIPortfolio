@@ -22,9 +22,10 @@ AFireGrenade::AFireGrenade()
 	//MovementComponent->CreateDefaultSubobject<UMovementComponent>(TEXT("MovementComp"));
 	
 	ProjectileMovement =CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
-	ProjectileMovement->Velocity = FVector(0,0,0);
-	ProjectileMovement->bSimulationEnabled = false;
-	ProjectileMovement->InitialSpeed = 0;
+	ProjectileMovement->Velocity = FVector(50,0,50);
+	
+	//ProjectileMovement->bSimulationEnabled = false;
+	ProjectileMovement->InitialSpeed = 1300;
 	ProjectileMovement->MaxSpeed = 1300;
 	/*
 	//ProjectileMovement->Velocity.X = ThrowDistance;
@@ -50,12 +51,17 @@ void AFireGrenade::Tick(float DeltaTime)
 
 }
 
-void AFireGrenade::ChangeThrowValues()
+
+
+void AFireGrenade::ChangeThrowValues(float ChargeValue)
 {
+	
 	BoxComponent->SetEnableGravity(true);
+	
 	//ProjectileMovement->bSimulationEnabled = true;
-	//ProjectileMovement->Velocity = FVector(2, 0, 1);
-	//ProjectileMovement->InitialSpeed = 1300;
+	ProjectileMovement->Velocity = FVector(0, 0, 0);
+	ProjectileMovement->MaxSpeed = 0;
+	ProjectileMovement->InitialSpeed = 0;
 	//ProjectileMovement->AddForce(FVector(1, 1, 1));
 
 }

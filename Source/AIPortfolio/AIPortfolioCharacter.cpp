@@ -10,6 +10,7 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "FireGrenade.h"
+#include "GameFramework/Actor.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -142,10 +143,15 @@ void AAIPortfolioCharacter::PrimaryAttack()
 
 void AAIPortfolioCharacter::SecondaryAttack()
 {
-		if(GrenadeRef != nullptr)
+		if(true)
 		{
+			FVector grenadelocation = this->GetTransform().GetLocation();
+		grenadelocation.Z = grenadelocation.Z + 150;
+			FakeGrenadeRef->Destroy();
+			GrenadeRef = GetWorld()->SpawnActor<AFireGrenade>(GrenadeBP, grenadelocation, this->GetTransform().Rotator());
 			UE_LOG(LogTemp, Warning, TEXT("Boom: %f"), GrenadeThrowStrength);
-			GrenadeRef->ChangeThrowValues();
+
+			GrenadeRef->ChangeThrowValues(GrenadeThrowStrength);
 			GrenadeRef = nullptr;
 			GetWorldTimerManager().SetTimer(GrenadeCooldownTimer, this, &AAIPortfolioCharacter::GrenadeCooldownToggle, GrenadeCooldown);
 			GrenadeThrowStrength = 0;
@@ -163,10 +169,13 @@ void AAIPortfolioCharacter::ChargeGrenade()
 {
 	if(bCanThrowGrenade)
 	{
-		FVector grenadelocation = this->GetTransform().GetLocation();
-		grenadelocation.Z = grenadelocation.Z + 100;
 		
+		FVector grenadelocation = this->GetTransform().GetLocation();
+		grenadelocation.Z = grenadelocation.Z + 150;
+		/*
 		GrenadeRef = GetWorld()->SpawnActor<AFireGrenade>(GrenadeBP, grenadelocation, this->GetTransform().Rotator());
+		*/
+		FakeGrenadeRef = GetWorld()->SpawnActor<AActor>(FakeGrenadeBP, grenadelocation, this->GetTransform().Rotator());
 		bCanThrowGrenade = false;
 	}
 	if(GrenadeThrowStrength < 2)
